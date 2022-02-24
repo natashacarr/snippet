@@ -1,0 +1,107 @@
+.card {
+  width: 90%;
+  padding: 10px;
+  margin: 5px auto 25px auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(225, 72, 75, 0);
+  box-shadow: 0px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(225, 72, 75, 0);
+  overflow-wrap: break-word;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0px;
+}
+
+.image {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(25%, 4);
+}
+
+.author,
+.subreddit-posted {
+  margin: 0px;
+  font-size: 0.8rem;
+  color: #e1484b;
+  text-align: center;
+}
+
+.author {
+  grid-column: 1 / 1;
+  justify-self: left;
+}
+
+.author span,
+.subreddit-posted span {
+  color: #6e6e6e;
+}
+
+.comments-button {
+  grid-column: 3 / 3;
+  justify-self: center;
+  margin: 0px;
+  font-size: 0.8rem;
+  color: #e1484b;
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+
+.comments-button:hover,
+.original-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button-text {
+  margin: 0px;
+}
+
+.original-link {
+  grid-column: 2 / 2;
+  justify-self: center;
+  margin: 0px;
+  font-size: 0.8rem;
+  color: #e1484b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.upvotes {
+  grid-column: 4 / 4;
+  justify-self: right;
+  margin: 0px;
+  font-size: 0.8rem;
+  color: #e1484b;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(33%, 3);
+  }
+
+  .comments-button {
+    grid-column: 3 / 3;
+    justify-self: right;
+  }
+
+  .upvotes {
+    display: none;
+  }
+}

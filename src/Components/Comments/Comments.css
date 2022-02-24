@@ -1,0 +1,19 @@
+.comment {
+  line-height: 0.9rem;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 1% auto;
+  background: #f3f3f3;
+  text-align: left;
+}
+
+.comment-author {
+  color: #e1484b;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}
+
+.comment-text {
+  font-size: 0.9rem;
+  margin: 0.5rem;
+}
