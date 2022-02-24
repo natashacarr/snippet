@@ -17,3 +17,18 @@
   font-size: 0.9rem;
   margin: 0.5rem;
 }
+
+/* /////////// */
+/* breakpoints */
+/* /////////// */
+
+/* 376px */
+
+@media screen and (max-width: 378px) {
+  .comment {
+    width: 100%;
+  }
+  .comment-text {
+    font-size: 0.8rem;
+  }
+}

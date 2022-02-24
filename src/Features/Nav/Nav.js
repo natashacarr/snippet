@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
-import { SiReddit } from "react-icons/si";
 import { FiSearch } from "react-icons/fi";
+import snippetLogo from "../Nav/snippet-logo.png";
 import "../Nav/Nav.css";
 
 const Nav = () => {
@@ -19,13 +19,8 @@ const Nav = () => {
 
   return (
     <div className="nav">
-      <div className="logo">
-        <SiReddit className="logo-icon" />
-        <h1 className="heading">
-          Sni<span>pp</span>et
-        </h1>
-      </div>
-      <p className="subheading">Reddit, minimised</p>
+      <img src={snippetLogo} className="logo" alt="Snippet logo" />
+
       <div className="search">
         <form className="search-form" onSubmit={handleSubmit}>
           <input

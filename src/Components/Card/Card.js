@@ -31,8 +31,10 @@ const Card = (props) => {
       </p>
       <hr />
 
-      <img className="image" src={props.postImg} alt="" />
-      <p className="content">{props.postText}</p>
+      <div>
+        {props.postImg && <img className="image" src={props.postImg} alt="" />}
+        {props.postText && <p className="content">{props.postText}</p>}
+      </div>
 
       <Animated
         className="content"
