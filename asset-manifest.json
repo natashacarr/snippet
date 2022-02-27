@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/snippet/static/css/main.9bcf5254.css",
+    "main.js": "/snippet/static/js/main.5ddb4579.js",
+    "static/js/787.c7fe88ea.chunk.js": "/snippet/static/js/787.c7fe88ea.chunk.js",
+    "static/media/missing-icons.png": "/snippet/static/media/missing-icons.db6ed3bf390fd62f5035.png",
+    "index.html": "/snippet/index.html",
+    "main.9bcf5254.css.map": "/snippet/static/css/main.9bcf5254.css.map",
+    "main.5ddb4579.js.map": "/snippet/static/js/main.5ddb4579.js.map",
+    "787.c7fe88ea.chunk.js.map": "/snippet/static/js/787.c7fe88ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bcf5254.css",
+    "static/js/main.5ddb4579.js"
+  ]
+}
