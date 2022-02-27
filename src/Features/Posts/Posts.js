@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getSubredditPosts } from "../../api/reddit";
 import Card from "../../Components/Card/Card";
-
+import "../Posts/Posts.css";
 const Posts = ({ match }) => {
   const [posts, setPosts] = useState([]);
   const subreddit = match.params.subreddit;

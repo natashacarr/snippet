@@ -16,6 +16,9 @@
 .comment-text {
   font-size: 0.9rem;
   margin: 0.5rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 /* /////////// */
@@ -25,9 +28,6 @@
 /* 376px */
 
 @media screen and (max-width: 378px) {
-  .comment {
-    width: 100%;
-  }
   .comment-text {
     font-size: 0.8rem;
   }

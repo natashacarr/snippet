@@ -10,8 +10,8 @@
 .logo {
   grid-column: 1/1;
   justify-self: left;
-  width: 50%;
-  margin: 3%;
+  width: 25%;
+  margin-left: 3%;
 }
 
 .search {
@@ -48,6 +48,15 @@
 /* /////////// */
 /* breakpoints */
 /* /////////// */
+
+/* 668px */
+
+@media screen and (max-width: 668px) {
+  .logo {
+    width: 40%;
+    margin: 3%;
+  }
+}
 
 /* 376px */
 
